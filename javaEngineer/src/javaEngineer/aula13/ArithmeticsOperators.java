@@ -27,7 +27,7 @@ public class ArithmeticsOperators {
 		 * "is a TV Serie"; System.out.println(firstName + middleName + lastName);
 		 */
 		
-		System.out.println(resultado += 1);
+		System.out.println(resultado);
 		System.out.println(resultado++);
 
 	}

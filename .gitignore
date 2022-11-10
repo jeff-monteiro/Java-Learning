@@ -1,6 +1,6 @@
 /bin/
 .metadata/
-.javaEngineer/.gitignore
-.javaEngineer/.project
-.javaEngineer/.settings
+javaEngineer/.gitignore
+javaEngineer/.project
+javaEngineer/.settings
 

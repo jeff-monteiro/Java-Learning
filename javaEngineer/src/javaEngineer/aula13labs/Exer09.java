@@ -12,7 +12,7 @@ public class Exer09 {
 		double f = data.nextDouble();
 		
 		double c = (5 * (f - 32) / 9);
-		System.out.println("The temperature in Celsius is: " + c + "°F");
+		System.out.println("The temperature in Celsius is: " + Math.round(c) + "°C");
 	}
 
 }

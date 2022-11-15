@@ -18,6 +18,7 @@ public class Exer11 {
 		int resultOne = (2 * fstInt) * (scdInt / 2);
 		double resultTwo = (fstInt * 3) + trdReal;
 		double resultThree = Math.pow(trdReal, 3);
+		
 		System.out.println("O product of the first operation is: " + resultOne);
 		System.out.println("O product of the second operation is: " + resultTwo);
 		System.out.println("O product of the third operation is: " + resultThree);

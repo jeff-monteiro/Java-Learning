@@ -15,8 +15,12 @@ public class Exer11 {
 		System.out.println("Insert the real number: ");
 		double trdReal = data.nextDouble();
 		
-		double resultOne = (2 * fstInt) + (scdInt / 2);
-		System.out.println("O product the first operation is: " + resultOne);
+		int resultOne = (2 * fstInt) * (scdInt / 2);
+		double resultTwo = (fstInt * 3) + trdReal;
+		double resultThree = Math.pow(trdReal, 3);
+		System.out.println("O product of the first operation is: " + resultOne);
+		System.out.println("O product of the second operation is: " + resultTwo);
+		System.out.println("O product of the third operation is: " + resultThree);
 		
 
 	}

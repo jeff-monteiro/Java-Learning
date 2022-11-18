@@ -11,7 +11,16 @@ public class BreakAndContinue {
 		System.out.println("Enter with a number: ");
 		int number = data.nextInt();
 		
-		System.out.println("Enter with a limit");
+		System.out.println("Enter with a limit: ");
+		int maximum = data.nextInt();
+		
+		for(int i = number; i <= maximum; i++) {
+			
+			if(i % 7 == 0) {
+				System.out.println("The value of i is: " + i);
+				break;
+			}
+		}
 	}
 
 }

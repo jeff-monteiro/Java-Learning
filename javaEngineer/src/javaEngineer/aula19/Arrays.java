@@ -13,7 +13,14 @@ public class Arrays {
 		System.out.println("Print out two temperatures: " + temperatures[1]);
 		
 		System.out.println("Print out two temperatures: " + temperatures.length);
-
+		
+		for(int i = 0; i < temperatures.length; i++) {
+			System.out.println("The temperature of the day " + (i+1) + " is: " + temperatures[i]);
+		}
+		// Command "for" improved.
+		for(double temp : temperatures) {
+			System.out.println(temp);
+		}
 	}
 
 }

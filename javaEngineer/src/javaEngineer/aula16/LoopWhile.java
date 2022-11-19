@@ -4,6 +4,7 @@ public class LoopWhile {
 
 	public static void main(String[] args) {
 		
+		// Some examples of use "while:do|while"
 		int data = 1; //count
 		int max = 20;
 		

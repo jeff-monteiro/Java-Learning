@@ -9,7 +9,7 @@ public class Exer04 {
 
         int number = data.nextInt();
         for(int i=0; i<number; i++){
-            System.out.println(i);
+            System.out.println("This is the value of: " + i);
         }
     }
 }

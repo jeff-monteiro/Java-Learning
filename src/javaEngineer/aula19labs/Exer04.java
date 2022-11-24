@@ -22,7 +22,7 @@ public class Exer04 {
         }
         System.out.println();
 
-        // To format the numbers
+        // To format the numbers for each region or country
         DecimalFormat df = new DecimalFormat("###,###.###");
 
         System.out.println("Insert the vetorB");

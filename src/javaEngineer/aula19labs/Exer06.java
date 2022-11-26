@@ -12,18 +12,16 @@ public class Exer06 {
         int[] vetC = new int[vetB.length];
 
         for(int i=0; i<vetA.length; i++){
-            System.out.println("Enter with i position: ");
+            System.out.println("Enter with i position: " + i);
             vetA[i] = data.nextInt();
+        }
+        for(int i=0; i<vetB.length; i++){
+            System.out.println("Enter with i position: " + i);
             vetB[i] = data.nextInt();
         }
-        System.out.println("The position of vetA ");
-        for(int i=0; i<vetA.length; i++){
-            System.out.println(vetA[i]);
+        for(int i=0; i<vetC.length; i++){
+            System.out.println("Enter with i position: " + i);
+            vetC[i] = vetA[i] + vetB[i];
         }
-        System.out.println("The position of vetB ");
-        for(int i=0; i<vetB.length; i++){
-            System.out.println(vetB[i]);
-        }
-
     }
 }

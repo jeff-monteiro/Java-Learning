@@ -20,8 +20,19 @@ public class Exer06 {
             vetB[i] = data.nextInt();
         }
         for(int i=0; i<vetC.length; i++){
-            System.out.println("Enter with i position: " + i);
             vetC[i] = vetA[i] + vetB[i];
+        }
+        System.out.println("Position of vetA ");
+        for(int i=0; i<vetA.length; i++){
+            System.out.println(vetA[i]);
+        }
+        System.out.println("Position of vetB ");
+        for(int i=0; i<vetB.length; i++){
+            System.out.println(vetA[i]);
+        }
+        System.out.println("Position of vetC ");
+        for(int i=0; i<vetC.length; i++){
+            System.out.println(vetC[i]);
         }
     }
 }

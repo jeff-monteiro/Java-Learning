@@ -28,7 +28,7 @@ public class Exer06 {
         }
         System.out.println("Position of vetB ");
         for(int i=0; i<vetB.length; i++){
-            System.out.println(vetA[i]);
+            System.out.println(vetB[i]);
         }
         System.out.println("Position of vetC ");
         for(int i=0; i<vetC.length; i++){

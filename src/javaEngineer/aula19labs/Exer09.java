@@ -1,5 +1,6 @@
 package src.javaEngineer.aula19labs;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Exer09 {
@@ -10,7 +11,7 @@ public class Exer09 {
 
         int[] posA = new int[10];
         int[] posB = new int[posA.length];
-        int[] posC = new int[posB.length];
+        double[] posC = new double[posB.length];
 
         for(int i=0; i<posA.length; i++){
             System.out.println("Enter with i position: " + i);
@@ -31,6 +32,9 @@ public class Exer09 {
         for(int i=0; i<posB.length; i++){
             System.out.println(posB[i]);
         }
+
+        DecimalFormat formatting = new DecimalFormat("###,###.##");
+
         System.out.println("Position of vetC ");
         for(int i=0; i<posC.length; i++){
             System.out.println(posC[i]);

@@ -9,15 +9,16 @@ public class ExerCalcIR {
 
         System.out.println("Insert your salary");
         double salary = data.nextDouble();
+        double dedutionFst = salary * 0.15;
+        double dedutionSec = salary * 0.22;
 
-        if(salary >= 3000.00){
-            salary = salary * 0.22;
-            System.out.println("Your salary must be: " + salary);
+
+        if(salary <= 3000.00){
+            salary = salary - dedutionFst;
+            System.out.println("Your salary with dedution must be: " + salary);
         } else {
-            salary = salary * 0.15;
-            System.out.println("Your salary must be: " + salary);
+            salary = salary - dedutionSec;
+            System.out.println("Your salary with dedution must be: " + salary);
         }
-
-
     }
 }

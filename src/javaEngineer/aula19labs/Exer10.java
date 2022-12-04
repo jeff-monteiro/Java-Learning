@@ -14,11 +14,15 @@ public class Exer10 {
             System.out.println("Insert the value of position at: " + i);
 
             vetorA[i] = data.nextInt();
-            vetorB[i] = data.nextInt();
+            vetorB[i] = vetorA[i] % 2;
         }
         System.out.println("Enter with vetorA ");
         for(int i=0; i < vetorA.length; i++){
             System.out.println(vetorA[i]);
+        }
+        System.out.println("Enter with vetorB ");
+        for(int i=0; i < vetorB.length; i++){
+            System.out.println(vetorB[i]);
         }
     }
 }

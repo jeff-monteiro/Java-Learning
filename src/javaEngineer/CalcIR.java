@@ -9,5 +9,9 @@ public class CalcIR {
 
         System.out.println("Insert your ");
         double salary = data.nextDouble();
+
+        if(salary > 2000 && salary < 2500){
+            System.out.println("You must to pay 15%");
+        }
     }
 }

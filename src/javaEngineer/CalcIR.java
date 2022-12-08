@@ -7,7 +7,7 @@ public class CalcIR {
 
         Scanner data = new Scanner(System.in);
 
-        System.out.println("Insert your ");
+        System.out.println("Insert your salary");
         double salary = data.nextDouble();
 
         if(salary > 1900.00 && salary <= 2800.00){

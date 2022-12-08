@@ -21,7 +21,7 @@ public class CalcIR {
             System.out.println("Your salary with dedution is: " + calcIR);
         }else{
             System.out.println("You must to pay 22.5%");
-            double calcIR = salary - (100 * 0.22);
+            double calcIR = salary - (100 * 0.225);
             System.out.println("Your salary with dedution is: " + calcIR);
         }
     }

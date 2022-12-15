@@ -1,4 +1,4 @@
-package src;
+package src.start.aula08_09;
 
 public class TiesTests2 {
     public static void main(String[] args) {

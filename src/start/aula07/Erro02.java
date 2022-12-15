@@ -1,3 +1,5 @@
+package src.start.aula07;
+
 class Erro02 {
 	// Simulado erro de semântica
 	public static void main(String[] args) {

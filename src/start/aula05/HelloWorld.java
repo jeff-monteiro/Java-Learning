@@ -1,3 +1,5 @@
+package src.start.aula05;
+
 class HelloWorld {
 
 	public static void main(String[] args) {

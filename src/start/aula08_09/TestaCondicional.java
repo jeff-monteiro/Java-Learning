@@ -1,4 +1,4 @@
-package src;
+package src.start.aula08_09;
 
 import java.util.Scanner;
 

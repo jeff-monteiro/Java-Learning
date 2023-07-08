@@ -1,7 +1,5 @@
 package src.start.aula08_09;
 
-import java.util.Scanner;
-
 public class ConversionTest {
     public static void main(String[] args) {
 

@@ -6,14 +6,14 @@ public class TestaCondicional {
     public static void main(String[] args) {
         System.out.println("Testing Conditionals");
 
-        Scanner data = new Scanner(System.in);
+        try (Scanner data = new Scanner(System.in)) {
+            int idade = data.nextInt();
 
-        int idade = data.nextInt();
-
-        if(idade >= 18){
-            System.out.println("You are major of age!");
-        }else{
-            System.out.println("You are not major of age!");
+            if(idade >= 18){
+                System.out.println("You are major of age!");
+            }else{
+                System.out.println("You are not major of age!");
+            }
         }
     }
 }

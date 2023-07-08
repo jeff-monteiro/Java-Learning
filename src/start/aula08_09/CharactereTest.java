@@ -12,10 +12,10 @@ public class CharactereTest {
         value = (char) (value + 1);
         System.out.println(value);
 
-        String word = "Alura courses online of technology";
-        System.out.println(word);
+        String phrase = "Alura courses online of technology";
+        System.out.println(phrase);
 
-        word = word + 2020;
-        System.out.println(word);
+        phrase = phrase + 2020;
+        System.out.println(phrase);
     }
 }

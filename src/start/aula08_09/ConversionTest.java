@@ -1,9 +1,16 @@
 package src.start.aula08_09;
 
+import java.util.Scanner;
+
 public class ConversionTest {
     public static void main(String[] args) {
 
-        //Scanner data = new Scanner(System.in);
+        Scanner data = new Scanner(System.in);
+
+        double x = data.nextDouble();
+        System.out.println("You typed:" + x);
+        data.close();
+        
         double salary = 1278.50;
         int value = (int) salary;
 

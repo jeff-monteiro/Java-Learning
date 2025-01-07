@@ -1,8 +1,8 @@
-package src.start;
+package src.start.labs;
 
 import java.util.Scanner;
 
-public class Exer01 {
+public class lab1 {
     public static void main(String[] args){
 
         try (Scanner data = new Scanner(System.in)) {

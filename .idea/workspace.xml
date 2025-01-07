@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18edad0f-483b-4fda-94a5-5eebb8210c5d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/start/labs/lab3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/start/labs/lab4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/start/labs/lab5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/start/labs/lab6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLearning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearning/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLearning/src/Exer01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLearning/src/Exer02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLearning/src/start/aula08_09/ConversionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearning/src/start/aula08_09/ConversionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/start/Exer01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/start/labs/lab1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/start/Exer02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/start/labs/lab2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLearning/src/start/labs/lab4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLearning/src/start/labs/lab4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/start/labs/lab4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/start/labs/lab4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +48,9 @@
     "Application.Exer01.executor": "Run",
     "Application.lab2.executor": "Run",
     "Application.lab3.executor": "Run",
+    "Application.lab4.executor": "Run",
+    "Application.lab5.executor": "Run",
+    "Application.lab6.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -66,7 +66,7 @@
       <recent name="src.start.labs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lab4">
+  <component name="RunManager" selected="Application.lab6">
     <configuration name="lab2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.start.labs.lab2" />
       <module name="JavaLearning" />
@@ -106,8 +106,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lab5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.start.labs.lab5" />
+      <module name="JavaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.start.labs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.start.labs.lab6" />
+      <module name="JavaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.start.labs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lab6" />
+        <item itemvalue="Application.lab5" />
         <item itemvalue="Application.lab4" />
         <item itemvalue="Application.lab3" />
         <item itemvalue="Application.lab2" />

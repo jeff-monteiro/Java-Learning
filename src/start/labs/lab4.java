@@ -11,5 +11,7 @@ public class lab4 {
         }else {
             System.out.println("IMPAR");
         }
+
+        data.close();
     }
 }

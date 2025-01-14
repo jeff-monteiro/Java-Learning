@@ -14,6 +14,7 @@ public class maxValue {
         
         int higher = max(a, b, c);
         showResult(higher);
+        
         sc.close();
     }
 

@@ -11,8 +11,7 @@ public class maxValue {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
-
-
+        
         int higher = max(a, b, c);
         showResult(higher);
         sc.close();

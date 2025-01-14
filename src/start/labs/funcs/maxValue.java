@@ -1,4 +1,4 @@
-package src.start.labs;
+package src.start.labs.funcs;
 
 import java.util.Scanner;
 
@@ -14,7 +14,7 @@ public class maxValue {
         
         int higher = max(a, b, c);
         showResult(higher);
-        
+
         sc.close();
     }
 

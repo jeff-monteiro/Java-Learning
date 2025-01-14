@@ -1,4 +1,4 @@
-package src.start.labs;
+package src.start.labs.laboratory;
 
 import java.util.Scanner;
 

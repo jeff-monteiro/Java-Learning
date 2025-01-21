@@ -24,8 +24,6 @@ public class Program {
             System.out.println("Passed!");
         }
 
-
-
         sc.close();
     }
 }

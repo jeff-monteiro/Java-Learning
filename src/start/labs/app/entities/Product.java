@@ -6,6 +6,13 @@ public class Product {
     public double price;
     public int quantity;
 
+    // Constructor to set values during instantiation of the class.
+    public Product(String name, double price, int quantity){
+        this.name = name;
+        this.price = price;
+        this.quantity = quantity;
+    }
+
     public double totalValueInStock(){
         double total = quantity * price;
         return total;

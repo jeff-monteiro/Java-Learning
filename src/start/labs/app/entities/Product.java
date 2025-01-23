@@ -13,6 +13,12 @@ public class Product {
         this.quantity = quantity;
     }
 
+    // Overload applying a new Constructor with fewer parameters
+    public Product(String name, double price){
+        this.name = name;
+        this.price = price;
+    }
+
     public double totalValueInStock(){
         double total = quantity * price;
         return total;

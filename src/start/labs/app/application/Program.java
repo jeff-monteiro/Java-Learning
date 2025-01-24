@@ -21,6 +21,8 @@ public class Program {
 
         // Calling the Constructor of the Product class.
         Product product = new Product(name, price);
+        // Commiting a new value after to define name Attribute as PRIVATE.
+        product.setName("Computer");
 
         System.out.println(product);
 

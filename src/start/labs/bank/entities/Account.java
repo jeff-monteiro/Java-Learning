@@ -1,23 +1,23 @@
 package src.start.labs.bank.entities;
 
 public class Account {
-        private Integer number;
+        private Integer numberId;
         private String holder;
         private double balance;
 
         public Account(int number, String holder){
-            this.number = number;
+            this.numberId = number;
             this.holder = holder;
         }
 
-        public Account(int number, String holder, double balance){
-            this.number = number;
+        public Account(int number, String holder, double initialDeposit){
+            this.numberId = number;
             this.holder = holder;
-            this.balance = balance;
+            deposit(initialDeposit);
         }
 
         public int getNumber(){
-            return number;
+            return numberId;
         }
 
         public String getHolder(){
@@ -38,5 +38,12 @@ public class Account {
 
         public void withdraw(double amount){
             balance -= amount + 5.0;
+        }
+
+        public String toString(){
+            return " Account: "
+                    + numberId
+                    + " , Holder: " + holder
+                    + " , Balance: $ " + String.format("%.2f", balance);
         }
 }

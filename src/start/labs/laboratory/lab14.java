@@ -2,7 +2,7 @@ package src.start.labs.laboratory;
 
 import java.util.Scanner;
 
-public class vetSample {
+public class lab14 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

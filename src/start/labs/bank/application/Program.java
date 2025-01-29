@@ -19,7 +19,7 @@ public class Program {
         char response = sc.next().charAt(0);
 
         if(response == 'y'){
-            System.out.print("Enter initial deposit value");
+            System.out.print("Enter initial deposit value: ");
             double initialDeposit = sc.nextDouble();
             account = new Account(number, holder, initialDeposit);
         } else {

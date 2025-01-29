@@ -37,7 +37,6 @@ public class Program {
             if(people[i].getAge() < 16){
                 minors++;
             }
-            totalHeight += people[i].getHeight();
         }
 
         percentualMinors = ((double)minors / n) * 100;

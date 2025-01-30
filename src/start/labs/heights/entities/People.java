@@ -1,9 +1,9 @@
 package src.start.labs.heights.entities;
 
 public class People {
-    public String name;
-    public int age;
-    public double height;
+    private String name;
+    private int age;
+    private double height;
 
     public People(String name, int age, double height){
         this.name = name;

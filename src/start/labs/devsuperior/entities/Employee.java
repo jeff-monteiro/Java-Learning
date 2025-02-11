@@ -2,17 +2,17 @@ package src.start.labs.devsuperior.entities;
 
 public class Employee {
 
+    private Integer idNumber;
     private String name;
     private Double salary;
-    private Integer idNumber;
 
     public Employee(){
     }
 
-    public Employee(String name, Double salary, Integer idNumber){
+    public Employee(Integer idNumber, String name, Double salary){
+        this.idNumber = idNumber;
         this.name = name;
         this.salary = salary;
-        this.idNumber = idNumber;
     }
 
     public String getName(){
@@ -39,8 +39,7 @@ public class Employee {
         this.idNumber = idNumber;
     }
 
-    public double increaseSalary(double percentage){
+    public void increaseSalary(double percentage){
         salary = salary + (salary * 0.1);
-        return salary;
     }
 }
